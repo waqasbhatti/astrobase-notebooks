@@ -2,7 +2,7 @@ This repository contains Jupyter notebooks that show how to use the
 [astrobase](https://github.com/waqasbhatti/astrobase) package.
 
 - **[lightcurve-work](lightcurve-work.ipynb)**: demonstrates usage of
-    the [hatlc](https://github.com/waqasbhatti/astrobase/hatlc.py), [periodbase](https://github.com/waqasbhatti/periodbase), and
+    the [hatlc](https://github.com/waqasbhatti/astrobase/hatlc.py), [periodbase](https://github.com/waqasbhatti/astrobase/periodbase), and
     [checkplot](https://github.com/waqasbhatti/astrobase/checkplot.py) modules for reading HAT light curves,
     finding periods, and plotting phased light curves.
 
