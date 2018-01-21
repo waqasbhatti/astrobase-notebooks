@@ -50,5 +50,11 @@ appropriate to get to these on your machine.
 
 # License
 
-These notebooks are provided under the MIT License. See the LICENSE file for
-the full text.
+These notebooks are provided under the MIT License. See the LICENSE file for the
+full text.
+
+If you use the HAT light curve data provided here for a publication, please cite
+the following papers as appropriate:
+
+- [Bakos, G., Noyes, R. W., Kovács, G., et al. 2004, PASP, 116, 266](http://adsabs.harvard.edu/abs/2004PASP..116..266B)
+- [Bakos, G. Á., Csubry, Z., Penev, K., et al. 2013, PASP, 125, 154](http://adsabs.harvard.edu/abs/2013PASP..125..154B)
