@@ -2,14 +2,14 @@ This repository contains Jupyter notebooks that show how to use the
 [astrobase](https://github.com/waqasbhatti/astrobase) package.
 
 - **[lightcurve-work](lightcurve-work.ipynb)**: demonstrates usage of
-    the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatlc.py), [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), and
+    the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py), [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), and
     [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py) modules for reading HAT light curves,
     finding periods, and plotting phased light curves.
 
 - **[lightcurves-and-checkplots](lightcurves-and-checkplots.ipynb)**:
-    demonstrates usage of the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatlc.py),
+    demonstrates usage of the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py),
     [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py)
-    modules, and the [checkplotserver](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplotserver.py) for doing
+    modules, and the [checkplotserver](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/cpserver/checkplotserver.py) for doing
     period-finding and variability-classification work on a collection of light
     curves.
 
@@ -40,6 +40,13 @@ $ source venv/bin/activate
 (venv) $ cd astrobase-notebooks
 (venv) $ jupyter notebook
 ```
+
+# Example data
+
+Example light curve data from the HATNet and HATSouth surveys is available as a
+[tarball](https://github.com/waqasbhatti/astrobase-notebooks/raw/master/nb-data/astrobase-example-hatlcs.tar.gz) in this repository. These are the same files used for the
+notebooks. You may have to play with the file paths in the notebooks as
+appropriate to get to these on your machine.
 
 # License
 
