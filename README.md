@@ -1,19 +1,19 @@
 This repository contains Jupyter notebooks that show how to use the
 [astrobase](https://github.com/waqasbhatti/astrobase) package.
 
-- **[lightcurve-work](lightcurve-work.ipynb)**: demonstrates usage of
+- **[lightcurve-work](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurve-work.ipynb)**: demonstrates usage of
     the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py), [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), and
     [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py) modules for reading HAT light curves,
     finding periods, and plotting phased light curves.
 
-- **[lightcurves-and-checkplots](lightcurves-and-checkplots.ipynb)**:
+- **[lightcurves-and-checkplots](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurves-and-checkplots.ipynb)**:
     demonstrates usage of the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py),
     [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py)
     modules, and the [checkplotserver](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/cpserver/checkplotserver.py) for doing
     period-finding and variability-classification work on a collection of light
     curves.
 
-- **[lc-collection-work](lc-collection-work.ipynb)**: demonstrates usage of the
+- **[lc-collection-work](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lc-collection-work.ipynb)**: demonstrates usage of the
     [lcproc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/lcproc.py)
     module to process a collection of light curves in an arbitrary format in
     order to prepare them for review by
@@ -21,11 +21,6 @@ This repository contains Jupyter notebooks that show how to use the
     goes through all the various features one can add to checkplots, ranging
     from neighbor info, cross-matching, and color-magnitude diagrams.
 
-
-- **[parallel-ipython](parallel-ipython.ipynb)**: shows examples of
-    how to map `astrobase` functions across an
-    [ipyparallel](http://ipyparallel.readthedocs.io/en/stable/) cluster to speed
-    up light curve processing.
 
 # Installation
 
