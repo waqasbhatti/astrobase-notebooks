@@ -1,27 +1,27 @@
 This repository contains Jupyter notebooks that show how to use the
 [astrobase](https://github.com/waqasbhatti/astrobase) package.
 
-- **[Jupyter nbviewer for lightcurve-work.ipynb](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurve-work.ipynb)**: demonstrates usage of
-    the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py), [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), and
-    [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py) modules for reading HAT light curves,
+- **lightcurve-work.ipynb ([Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurve-work.ipynb))**: demonstrates usage of
+    the [hatlc](https://astrobase.readthedocs.io/en/latest/astrobase.hatsurveys.hatlc.html), [periodbase](https://astrobase.readthedocs.io/en/latest/astrobase.periodbase.html), and
+    [checkplot](https://astrobase.readthedocs.io/en/latest/astrobase.checkplot.html) modules for reading HAT light curves,
     finding periods, and plotting phased light curves.
 
-- **[Jupyter nbviewer for lightcurves-and-checkplots.ipynb](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurves-and-checkplots.ipynb)**:
-    demonstrates usage of the [hatlc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/hatsurveys/hatlc.py),
-    [periodbase](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/periodbase), [checkplot](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/checkplot.py)
-    modules, and the [checkplotserver](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/cpserver/checkplotserver.py) for doing
+- **lightcurves-and-checkplots.ipynb [Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurves-and-checkplots.ipynb)**:
+    demonstrates usage of the [hatlc](https://astrobase.readthedocs.io/en/latest/astrobase.hatsurveys.hatlc.html),
+    [periodbase](https://astrobase.readthedocs.io/en/latest/astrobase.periodbase.html), [checkplot](https://astrobase.readthedocs.io/en/latest/astrobase.checkplot.html)
+    modules, and the [checkplotserver](https://astrobase.readthedocs.io/en/latest/astrobase.cpserver.html) for doing
     period-finding and variability-classification work on a collection of light
     curves.
 
-- **[Jupyter nbviewer for lc-collection-work.ipynb](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lc-collection-work.ipynb)**: demonstrates usage of the
-    [lcproc](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/lcproc.py)
+- **lc-collection-work.ipynb ([Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lc-collection-work.ipynb))**: demonstrates usage of the
+    [lcproc](https://astrobase.readthedocs.io/en/latest/astrobase.lcproc.html)
     module to process a collection of light curves in an arbitrary format in
     order to prepare them for review by
-    [checkplotserver](https://github.com/waqasbhatti/astrobase/blob/master/astrobase/cpserver/checkplotserver.py). This
+    [checkplotserver](https://astrobase.readthedocs.io/en/latest/astrobase.cpserver.html). This
     goes through all the various features one can add to checkplots, ranging
     from neighbor info, cross-matching, and color-magnitude diagrams.
 
-- **[Jupyter nbviewer for lcc-server-setup.ipynb](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lcc-server-setup.ipynb)**:
+- **lcc-server-setup.ipynb ([Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lcc-server-setup.ipynb))**:
   describes how to use astrobase products like period-finding pickles and
   checkplot pickles to feed into the
   [LCC-Server](https://github.com/waqasbhatti/lcc-server), a browser interface
