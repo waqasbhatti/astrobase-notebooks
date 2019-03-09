@@ -6,7 +6,7 @@ This repository contains Jupyter notebooks that show how to use the
     [checkplot](https://astrobase.readthedocs.io/en/latest/astrobase.checkplot.html) modules for reading HAT light curves,
     finding periods, and plotting phased light curves.
 
-- **lightcurves-and-checkplots.ipynb [Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurves-and-checkplots.ipynb)**:
+- **lightcurves-and-checkplots.ipynb ([Jupyter nbviewer](https://nbviewer.jupyter.org/github/waqasbhatti/astrobase-notebooks/blob/master/lightcurves-and-checkplots.ipynb))**:
     demonstrates usage of the [hatlc](https://astrobase.readthedocs.io/en/latest/astrobase.hatsurveys.hatlc.html),
     [periodbase](https://astrobase.readthedocs.io/en/latest/astrobase.periodbase.html), [checkplot](https://astrobase.readthedocs.io/en/latest/astrobase.checkplot.html)
     modules, and the [checkplotserver](https://astrobase.readthedocs.io/en/latest/astrobase.cpserver.html) for doing
